@@ -1,3 +1,3 @@
 # Simple chat App in react
 
-## author: Štěpán Pejchar [link]  https://github.com/xpejch08
+## author: Štěpán Pejchar https://github.com/xpejch08
