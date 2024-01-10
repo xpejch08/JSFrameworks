@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/stepan/Documents/rand/react/JSFrameworks/chatapp/ChatAppApi/ChatAppApi.csproj": {}
+    "/home/stepan/Documents/rand/react/JSFrameworks/chatAppReactNet/ChatAppApi/ChatAppApi.csproj": {}
   },
   "projects": {
-    "/home/stepan/Documents/rand/react/JSFrameworks/chatapp/ChatAppApi/ChatAppApi.csproj": {
+    "/home/stepan/Documents/rand/react/JSFrameworks/chatAppReactNet/ChatAppApi/ChatAppApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/stepan/Documents/rand/react/JSFrameworks/chatapp/ChatAppApi/ChatAppApi.csproj",
+        "projectUniqueName": "/home/stepan/Documents/rand/react/JSFrameworks/chatAppReactNet/ChatAppApi/ChatAppApi.csproj",
         "projectName": "ChatAppApi",
-        "projectPath": "/home/stepan/Documents/rand/react/JSFrameworks/chatapp/ChatAppApi/ChatAppApi.csproj",
+        "projectPath": "/home/stepan/Documents/rand/react/JSFrameworks/chatAppReactNet/ChatAppApi/ChatAppApi.csproj",
         "packagesPath": "/home/stepan/.nuget/packages/",
-        "outputPath": "/home/stepan/Documents/rand/react/JSFrameworks/chatapp/ChatAppApi/obj/",
+        "outputPath": "/home/stepan/Documents/rand/react/JSFrameworks/chatAppReactNet/ChatAppApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/stepan/.nuget/NuGet/NuGet.Config"

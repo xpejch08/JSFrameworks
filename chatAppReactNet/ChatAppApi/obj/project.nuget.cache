@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7ekM5c/c2PCBe6YR6dVTGq7LROGoTwrYDEjxzRNpcYBeqSeL33+HKnX39oIwC5PE1u7OQfjBnWuqdKNmCKvAwQ==",
+  "dgSpecHash": "ox+YwS3Mt6NaD+XEXYXtXK4E45euTMoBLtuN6trSxouyltddTaTUcpOUGXyX7WNdrqiL/Da2q+3ht9LlfJSivw==",
   "success": true,
-  "projectFilePath": "/home/stepan/Documents/rand/react/JSFrameworks/chatapp/ChatAppApi/ChatAppApi.csproj",
+  "projectFilePath": "/home/stepan/Documents/rand/react/JSFrameworks/chatAppReactNet/ChatAppApi/ChatAppApi.csproj",
   "expectedPackageFiles": [
     "/home/stepan/.nuget/packages/microsoft.aspnetcore.openapi/8.0.0/microsoft.aspnetcore.openapi.8.0.0.nupkg.sha512",
     "/home/stepan/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
