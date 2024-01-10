@@ -1,0 +1,111 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+    background-color: #0a0a23; /* Dark blue background */
+  }
+  
+  /* Ensure the root div fills the whole page */
+  #root {
+    height: 100%;
+  }
+  
+  /* Full page chat container */
+  .chat-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  /* Header at the top of the chat */
+  .chat-header {
+    background-color: #5a2d82; /* Purple background */
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Messages list in the middle of the chat */
+  .message-list {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    overflow-y: auto;
+    margin-bottom: 80px; /* Adjust this based on the height of the input container */
+  }
+  
+  /* Message bubbles with rounded corners */
+  .message {
+    display: flex;
+    max-width: 60%;
+    word-wrap: break-word;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border-radius: 18px;
+    color: white;
+    font-size: 0.9rem;
+  }
+  
+  /* Styling for the message that the user sent */
+  .user-message {
+    background-color: #9a4dbb; /* Lighter purple */
+    align-self: flex-end;
+    margin: 10px 0;
+    padding: 10px;
+    margin-right: 20px; /* Spacing from the right side */
+    max-width: 60%;
+    border-radius: 18px;
+  }
+  
+  /* Styling for the message from someone else */
+  .other-message {
+    background-color: #162955; /* Darker blue */
+    align-self: flex-start;
+    margin: 10px 0;
+    padding: 10px;
+    max-width: 60%;
+    border-radius: 18px;
+    margin-left: 20px; /* Spacing from the left side */
+  }
+  
+  /* Input area at the bottom of the chat */
+  .input-container {
+    position: fixed; /* Fix position to the bottom */
+    bottom: 0;
+    left: 0;
+    width: 100%; /* Full width */
+    border-width: 2px;
+    background-color: #5a2d82; /* Purple background */
+    border-color: #ffffff; /* Purple border */
+    padding: 20px;
+    display: flex;
+  }
+  
+  /* Input field for new messages */
+  .input-container input {
+    flex-grow: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 18px;
+    border: none;
+    outline: none;
+  }
+  
+  /* Send button */
+  .input-container button {
+    padding: 10px 20px;
+    margin: 2px;
+    border: 2px solid #000000;
+    border-radius: 18px;
+    background-color: #303f9f; /* Dark blue */
+    color: white;
+    cursor: pointer;
+  }
+  
